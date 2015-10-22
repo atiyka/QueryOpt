@@ -1,0 +1,8 @@
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\bin\Debug\STSdb4.GettingStarted.exe.config
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\bin\Debug\STSdb4.GettingStarted.exe
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\bin\Debug\STSdb4.GettingStarted.pdb
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\bin\Debug\STSdb4.dll
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\bin\Debug\STSdb4.pdb
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\obj\Debug\STSdb4.GettingStarted.csprojResolveAssemblyReference.cache
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\obj\Debug\STSdb4.GettingStarted.exe
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4.GettingStarted\obj\Debug\STSdb4.GettingStarted.pdb

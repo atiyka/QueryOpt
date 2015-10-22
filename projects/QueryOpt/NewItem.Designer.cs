@@ -1,6 +1,6 @@
 ﻿namespace QueryOpt
 {
-    partial class NewTable
+    partial class NewItem
     {
         /// <summary>
         /// Required designer variable.
@@ -59,7 +59,7 @@
             this.B_ok.UseVisualStyleBackColor = true;
             this.B_ok.Click += new System.EventHandler(this.B_ok_Click);
             // 
-            // NewTable
+            // NewItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -67,9 +67,8 @@
             this.Controls.Add(this.B_ok);
             this.Controls.Add(this.TB_name);
             this.Controls.Add(this.L_name);
-            this.Name = "NewTable";
-            this.Text = "NewTable";
-            this.Load += new System.EventHandler(this.NewItem_Load);
+            this.Name = "NewItem";
+            this.Text = "NewItem";
             this.ResumeLayout(false);
             this.PerformLayout();
 

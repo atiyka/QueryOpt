@@ -1,0 +1,11 @@
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\bin\Debug\QueryOpt.exe.config
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\bin\Debug\QueryOpt.exe
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\bin\Debug\QueryOpt.pdb
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.csprojResolveAssemblyReference.cache
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.Form1.resources
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.NewAttribute.resources
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.NewItem.resources
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.Properties.Resources.resources
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.csproj.GenerateResource.Cache
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.exe
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\QueryOpt\obj\Debug\QueryOpt.pdb

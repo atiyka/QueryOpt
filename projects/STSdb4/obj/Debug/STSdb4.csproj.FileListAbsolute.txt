@@ -1,0 +1,5 @@
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4\bin\Debug\STSdb4.dll
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4\bin\Debug\STSdb4.pdb
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4\obj\Debug\STSdb4.csprojResolveAssemblyReference.cache
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4\obj\Debug\STSdb4.dll
+C:\Users\hunor_000\Documents\Visual Studio 2012\Projects\QueryOpt\STSdb4\obj\Debug\STSdb4.pdb
