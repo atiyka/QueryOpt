@@ -151,36 +151,17 @@ namespace QueryOpt
             // uj tabla
             else if (e.Node.Name.Equals("table"))
             {
-                XmlNode xml = (XmlNode)e.Node.Tag;
-                string tableName = e.Node.Text;
-
-                NewItem newTbl = new NewItem(this);
-                var result = newTbl.ShowDialog(this);
-                if (result == DialogResult.OK)
-                {
-                    MessageBox.Show(newItemResult);
-
-                    XmlDocument doc = new XmlDocument();
-                    doc.Load("Catalog.xml");
-                 
-                    XmlNode tables = doc.SelectSingleNode("//Tables");
-                    XmlNode table = doc.SelectSingleNode("//Table");
-
-                    XmlElement newTable = doc.CreateElement("Table");
-                    newTable.SetAttribute("tableName", newItemResult);
-                    newTable.SetAttribute("fileName", newItemResult + ".bin");
-                    newTable.SetAttribute("rowLength", "53");
-
-                    newTable.IsEmpty = false; // with closing tag
-
-                    tables.InsertBefore(newTable, table);
-
-                    doc.Save("Catalog.xml");
-                }
+                newTable();
             }
             else if (e.Node.Name.Equals("database"))
             {
-                 XmlNode xml = (XmlNode)e.Node.Tag;
+                newDatabase();
+            }
+            
+        }
+
+        private void newDatabase(){
+                XmlNode xml = (XmlNode)e.Node.Tag;
                 string tableName = e.Node.Text;
                 
                 NewItem newDb = new NewItem(this);
@@ -206,11 +187,36 @@ namespace QueryOpt
 
                     doc.Save("Catalog.xml");
                 }
-            
-            }
-            
         }
+        private void newTable()
+        {
+            XmlNode xml = (XmlNode)e.Node.Tag;
+            string tableName = e.Node.Text;
 
+            NewItem newTbl = new NewItem(this);
+            var result = newTbl.ShowDialog(this);
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show(newItemResult);
+
+                XmlDocument doc = new XmlDocument();
+                doc.Load("Catalog.xml");
+
+                XmlNode tables = doc.SelectSingleNode("//Tables");
+                XmlNode table = doc.SelectSingleNode("//Table");
+
+                XmlElement newTable = doc.CreateElement("Table");
+                newTable.SetAttribute("tableName", newItemResult);
+                newTable.SetAttribute("fileName", newItemResult + ".bin");
+                newTable.SetAttribute("rowLength", "53");
+
+                newTable.IsEmpty = false; // with closing tag
+
+                tables.InsertBefore(newTable, table);
+
+                doc.Save("Catalog.xml");
+            }
+        }
         private void B_newAttr_Click(object sender, EventArgs e)
         {
             NewAttribute newAttr = new NewAttribute();
