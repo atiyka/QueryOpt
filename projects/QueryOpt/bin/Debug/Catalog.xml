@@ -2,8 +2,6 @@
 <Databases>
   <DataBase dataBaseName="University">
     <Tables>
-      <Table tableName="tabla" fileName="tabla.bin" rowLength="53">
-      </Table>
       <Table tableName="Specialization" fileName="Spec.bin" rowLength="53">
         <Structure>
           <!-- attributeName, type can be elements instead of attributes in xml -->
@@ -64,6 +62,4 @@
           views or other database objects  -->
   </DataBase>
   <!-- can be more databases in one xml structure file -->
-  <Database dataBaseName="uj">
-  </Database>
 </Databases>

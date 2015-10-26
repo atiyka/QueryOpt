@@ -160,27 +160,22 @@ namespace QueryOpt
                 {
                     MessageBox.Show(newItemResult);
 
-                  //  XmlDocument doc = new XmlDocument();
-                   // doc.Load("Catalog.xml");
-                    XDocument xmlDoc = XDocument.Load("Catalog.xml");
+                    XmlDocument doc = new XmlDocument();
+                    doc.Load("Catalog.xml");
+                 
+                    XmlNode tables = doc.SelectSingleNode("//Tables");
+                    XmlNode table = doc.SelectSingleNode("//Table");
 
-                    xmlDoc.Element("Talbles").Add(new XElement("DataBase", new XElement("Name", "Nisar"),
-      new XElement("Forum", "dotnetobject"), new XElement("Position", "Member")));
-                    xmlDoc.Save("Catalog.xml");
-                  
-                 //   XmlNode tables = doc.SelectSingleNode("//Tables");
-                  //  XmlNode table = doc.SelectSingleNode("//Table");
+                    XmlElement newTable = doc.CreateElement("Table");
+                    newTable.SetAttribute("tableName", newItemResult);
+                    newTable.SetAttribute("fileName", newItemResult + ".bin");
+                    newTable.SetAttribute("rowLength", "53");
 
-  //                  XmlElement newTable = doc.CreateElement("Table");
-//                    newTable.SetAttribute("tableName", newItemResult);
-    //                newTable.SetAttribute("fileName", newItemResult + ".bin");
-      //              newTable.SetAttribute("rowLength", "53");
+                    newTable.IsEmpty = false; // with closing tag
 
-        //            newTable.IsEmpty = false; // with closing tag
+                    tables.InsertBefore(newTable, table);
 
-          //          tables.InsertBefore(newTable, table);
-
-                   // doc.Save("Catalog.xml");
+                    doc.Save("Catalog.xml");
                 }
             }
             else if (e.Node.Name.Equals("database"))
